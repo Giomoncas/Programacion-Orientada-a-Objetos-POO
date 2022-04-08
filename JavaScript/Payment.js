@@ -1,7 +1,12 @@
 class Payment
 {
-    constructor()
+    constructor(id)
     {
-        this.id;
+        this.id = id;
+    }
+
+    printDataPayment()
+    {
+        console.log(this.id, this.email);
     }
 }
